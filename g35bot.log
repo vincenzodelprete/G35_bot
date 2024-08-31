@@ -1,0 +1,1771 @@
+2024-08-30 22:33:11,138 - INFO - Inizializzazione del modello Vosk
+2024-08-30 22:33:18,567 - INFO - Modello Vosk caricato correttamente
+2024-08-30 22:33:18,635 - INFO - Avvio dell'applicazione Telegram bot
+2024-08-30 22:33:19,831 - INFO - Bot in esecuzione...
+2024-08-30 22:33:20,205 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getMe "HTTP/1.1 200 OK"
+2024-08-30 22:33:20,265 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/deleteWebhook "HTTP/1.1 200 OK"
+2024-08-30 22:33:20,271 - INFO - Application started
+2024-08-30 22:33:30,456 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:33:40,524 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:33:50,598 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:34:00,664 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:34:10,730 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:34:14,755 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:34:14,760 - INFO - Application is stopping. This might take a moment.
+2024-08-30 22:34:14,763 - INFO - Application.stop() complete
+2024-08-30 22:34:57,796 - INFO - Inizializzazione del modello Vosk
+2024-08-30 22:35:04,502 - INFO - Modello Vosk caricato correttamente
+2024-08-30 22:35:04,553 - INFO - Avvio dell'applicazione Telegram bot
+2024-08-30 22:35:05,343 - INFO - Bot in esecuzione...
+2024-08-30 22:35:05,689 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getMe "HTTP/1.1 200 OK"
+2024-08-30 22:35:05,753 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/deleteWebhook "HTTP/1.1 200 OK"
+2024-08-30 22:35:05,759 - INFO - Application started
+2024-08-30 22:35:15,930 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:35:23,866 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:35:23,875 - INFO - Ricevuto messaggio di testo: ciao
+2024-08-30 22:35:29,099 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:35:33,977 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:35:44,038 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:35:49,918 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:35:49,926 - INFO - Ricevuto messaggio audio
+2024-08-30 22:35:50,165 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getFile "HTTP/1.1 200 OK"
+2024-08-30 22:35:50,275 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7219726355%3AAAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/voice/file_11.oga "HTTP/1.1 200 OK"
+2024-08-30 22:35:50,310 - INFO - File audio scaricato: downloads/AwACAgQAAxkBAANiZtItJWPgWsMJO4HWk2ecHb4oTEwAAqwVAALikZBSebrr7Qnx0BE1BA.oga
+2024-08-30 22:35:59,066 - INFO - File audio convertito in wav: downloads/AwACAgQAAxkBAANiZtItJWPgWsMJO4HWk2ecHb4oTEwAAqwVAALikZBSebrr7Qnx0BE1BA.wav
+2024-08-30 22:35:59,132 - INFO - Inizio trascrizione audio per: downloads/AwACAgQAAxkBAANiZtItJWPgWsMJO4HWk2ecHb4oTEwAAqwVAALikZBSebrr7Qnx0BE1BA.wav
+2024-08-30 22:36:06,377 - INFO - Trascrizione audio completata per: downloads/AwACAgQAAxkBAANiZtItJWPgWsMJO4HWk2ecHb4oTEwAAqwVAALikZBSebrr7Qnx0BE1BA.wav
+2024-08-30 22:36:06,415 - INFO - Trascrizione completata: stasera siamo un poco lenti
+2024-08-30 22:36:06,607 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:09,453 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:11,871 - ERROR - Errore durante la trascrizione dell'audio: Timed out
+2024-08-30 22:36:17,025 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 82, in handle_audio
+    await update.message.reply_text(f"Si è verificato un errore durante l'elaborazione dell'audio: {str(e)}")
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:36:17,105 - INFO - Ricevuto messaggio di testo: Ciao
+2024-08-30 22:36:19,524 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:22,227 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:36:22,256 - INFO - Ricevuto messaggio di testo: Non risp piú
+2024-08-30 22:36:27,439 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:36:29,592 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:32,097 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:32,106 - INFO - Ricevuto messaggio di testo: stava decodificando l'audio...
+2024-08-30 22:36:34,025 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:37,252 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:36:37,289 - INFO - Ricevuto messaggio di testo: Eh infatti
+2024-08-30 22:36:42,429 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:36:44,091 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:50,281 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:50,295 - INFO - Ricevuto messaggio di testo: però ti ha messo in coda... Interessante
+2024-08-30 22:36:52,168 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:36:55,432 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:36:55,456 - INFO - Ricevuto messaggio di testo: Ok
+2024-08-30 22:37:00,604 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:37:02,248 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:08,166 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:08,173 - INFO - Ricevuto messaggio di testo: E visto?
+2024-08-30 22:37:13,371 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:37:18,257 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:28,321 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:31,277 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:31,284 - INFO - Ricevuto messaggio di testo: Servo pure io
+2024-08-30 22:37:36,440 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:37:41,351 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:48,241 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:37:48,248 - INFO - Ricevuto messaggio di testo: parlaci un poco, fai un audio dove dici di impostare qualche cosa di domotico...
+2024-08-30 22:37:53,395 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:37:58,329 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:08,393 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:18,455 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:28,519 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:38,599 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:48,930 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:49,024 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:38:49,034 - INFO - Ricevuto messaggio audio
+2024-08-30 22:38:49,397 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getFile "HTTP/1.1 200 OK"
+2024-08-30 22:38:49,631 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7219726355%3AAAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/voice/file_12.oga "HTTP/1.1 200 OK"
+2024-08-30 22:38:49,749 - INFO - File audio scaricato: downloads/AwACAgQAAxkBAAN3ZtIt2Cs2bjrZRT80-qtwCsZw5Z8AAq0VAALikZBSTbzc0Hr3p1Q1BA.oga
+2024-08-30 22:41:05,714 - INFO - File audio convertito in wav: downloads/AwACAgQAAxkBAAN3ZtIt2Cs2bjrZRT80-qtwCsZw5Z8AAq0VAALikZBSTbzc0Hr3p1Q1BA.wav
+2024-08-30 22:41:05,791 - INFO - Inizio trascrizione audio per: downloads/AwACAgQAAxkBAAN3ZtIt2Cs2bjrZRT80-qtwCsZw5Z8AAq0VAALikZBSTbzc0Hr3p1Q1BA.wav
+2024-08-30 22:41:10,600 - INFO - Trascrizione audio completata per: downloads/AwACAgQAAxkBAAN3ZtIt2Cs2bjrZRT80-qtwCsZw5Z8AAq0VAALikZBSTbzc0Hr3p1Q1BA.wav
+2024-08-30 22:41:10,624 - INFO - Trascrizione completata: ciccio accendi la luce nel bagno grazie
+2024-08-30 22:41:10,736 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:41:16,218 - ERROR - Errore durante la trascrizione dell'audio: Timed out
+2024-08-30 22:41:20,816 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:41:21,444 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 82, in handle_audio
+    await update.message.reply_text(f"Si è verificato un errore durante l'elaborazione dell'audio: {str(e)}")
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:41:30,894 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:41:41,067 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:41:51,148 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:01,213 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:11,477 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:12,249 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:12,267 - INFO - Ricevuto messaggio di testo: ok, il raspino ci ha messo appena 3 minuti... E' comunque un modello molto vecchio e già molto ridotto rispetto anche all'epoca.. Ottimizziamo...
+2024-08-30 22:42:17,602 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:42:22,358 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:32,420 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:42,484 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:42:52,548 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:43:02,798 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:43:09,704 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:43:09,727 - INFO - Ricevuto messaggio di testo: prima ti rispondeva il pc, era un bel pò piu' svelto
+2024-08-30 22:43:15,354 - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 276, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.11/contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_application.py", line 1335, in process_update
+    await coroutine
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_handlers/basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/g35e.py", line 49, in handle_text
+    await update.message.reply_text(response)
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_message.py", line 1763, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 2907, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 1028, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 610, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 744, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 622, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 355, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/_bot.py", line 651, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 342, in _request_wrapper
+    raise exc
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 332, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vincenzo/G35_bot/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 293, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2024-08-30 22:43:19,822 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:43:30,102 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:43:40,189 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:43:50,259 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:44:00,553 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:44:10,945 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:44:21,074 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:44:31,143 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:44:41,449 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:44:51,553 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:45:01,995 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:45:12,283 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:45:22,389 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:45:32,655 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:45:42,846 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:45:52,938 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:46:03,285 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:46:13,404 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:46:23,582 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:46:33,666 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:46:43,725 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:46:53,791 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:47:04,083 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:47:14,193 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:47:24,472 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:47:34,821 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:47:44,941 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:47:55,007 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:48:05,357 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:48:15,763 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:48:25,929 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:48:36,047 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:48:46,111 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:48:56,175 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:49:06,470 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:49:16,583 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:49:26,892 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:49:37,036 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:49:47,107 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:49:57,414 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:50:08,540 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:50:21,214 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:50:31,383 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:50:41,453 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:50:51,523 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:51:01,588 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:51:11,818 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:51:21,933 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:51:32,021 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:51:42,087 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:51:52,152 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:52:02,215 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:52:12,277 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:52:22,492 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:52:32,592 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:52:42,653 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:52:52,716 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:53:02,926 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:53:13,294 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:53:23,356 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:53:33,417 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:53:43,481 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:53:53,545 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:54:03,875 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:54:13,998 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:54:24,077 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:54:34,420 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:54:44,538 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:54:54,605 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:55:04,940 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:55:15,048 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:55:25,123 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:55:35,188 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:55:45,252 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:55:55,317 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:56:05,390 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:56:15,468 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:56:25,544 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:56:35,896 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:56:46,017 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 22:56:56,084 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-30 23:01:14,671 - INFO - Inizializzazione del modello Vosk
+2024-08-30 23:01:21,935 - INFO - Modello Vosk caricato correttamente
+2024-08-30 23:01:21,962 - INFO - Avvio dell'applicazione Telegram bot
+2024-08-30 23:01:22,866 - ERROR - Errore durante l'avvio del bot: Attribute `request_timeout` of class `ExtBot` can't be set!
+2024-08-30 23:01:55,081 - INFO - Inizializzazione del modello Vosk
+2024-08-30 23:02:02,390 - INFO - Modello Vosk caricato correttamente
+2024-08-30 23:02:04,474 - INFO - Avvio dell'applicazione Telegram bot
+2024-08-30 23:02:06,484 - ERROR - Errore durante l'avvio del bot: Attribute `request_timeout` of class `ExtBot` can't be set!
+2024-08-31 08:59:03,800 - INFO - Inizializzazione del modello Vosk
+2024-08-31 08:59:04,453 - INFO - Modello Vosk caricato correttamente
+2024-08-31 08:59:04,914 - INFO - Avvio dell'applicazione Telegram bot
+2024-08-31 08:59:05,272 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getMe "HTTP/1.1 200 OK"
+2024-08-31 08:59:05,340 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/deleteWebhook "HTTP/1.1 200 OK"
+2024-08-31 08:59:05,344 - INFO - Application started
+2024-08-31 08:59:05,498 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 08:59:05,501 - INFO - Ricevuto messaggio di testo: ok
+2024-08-31 08:59:05,595 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/sendMessage "HTTP/1.1 200 OK"
+2024-08-31 08:59:10,813 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 08:59:10,815 - INFO - Application is stopping. This might take a moment.
+2024-08-31 08:59:10,815 - INFO - Application.stop() complete
+2024-08-31 09:10:00,180 - INFO - Bot is running...
+2024-08-31 09:10:00,510 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getMe "HTTP/1.1 200 OK"
+2024-08-31 09:10:00,561 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/deleteWebhook "HTTP/1.1 200 OK"
+2024-08-31 09:10:00,565 - INFO - Application started
+2024-08-31 09:10:10,716 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:12,028 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:12,658 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getFile "HTTP/1.1 200 OK"
+2024-08-31 09:10:12,753 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7219726355%3AAAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/voice/file_20.oga "HTTP/1.1 200 OK"
+2024-08-31 09:10:12,757 - INFO - File audio scaricato: downloads\AwACAgQAAxkBAAOzZtLB09N-8T9vUSPK6nDnZ3hPAcYAAqQSAALikZhSG9ilG5zhyTw1BA.oga
+2024-08-31 09:10:12,787 - ERROR - Errore durante l'elaborazione dell'audio: Command 'ffmpeg -i downloads\AwACAgQAAxkBAAOzZtLB09N-8T9vUSPK6nDnZ3hPAcYAAqQSAALikZhSG9ilG5zhyTw1BA.oga -ar 16000 -ac 1 downloads\AwACAgQAAxkBAAOzZtLB09N-8T9vUSPK6nDnZ3hPAcYAAqQSAALikZhSG9ilG5zhyTw1BA.wav' returned non-zero exit status 1.
+2024-08-31 09:10:12,886 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/sendMessage "HTTP/1.1 200 OK"
+2024-08-31 09:10:22,556 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:32,611 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:42,659 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:52,708 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:58,018 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:10:58,019 - INFO - Application is stopping. This might take a moment.
+2024-08-31 09:10:58,021 - INFO - Application.stop() complete
+2024-08-31 09:13:17,837 - INFO - Bot is running...
+2024-08-31 09:13:18,150 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getMe "HTTP/1.1 200 OK"
+2024-08-31 09:13:18,205 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/deleteWebhook "HTTP/1.1 200 OK"
+2024-08-31 09:13:18,208 - INFO - Application started
+2024-08-31 09:13:25,385 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:13:26,020 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getFile "HTTP/1.1 200 OK"
+2024-08-31 09:13:26,149 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7219726355%3AAAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/voice/file_21.oga "HTTP/1.1 200 OK"
+2024-08-31 09:13:26,153 - INFO - File audio scaricato: downloads\AwACAgQAAxkBAAO1ZtLClVuoXqHWENngbtH7sqYZSqAAAqcSAALikZhSYH62d1JFtcQ1BA.oga
+2024-08-31 09:13:26,293 - INFO - File convertito in WAV: downloads\AwACAgQAAxkBAAO1ZtLClVuoXqHWENngbtH7sqYZSqAAAqcSAALikZhSYH62d1JFtcQ1BA.wav
+2024-08-31 09:13:26,837 - INFO - Trascrizione completata: prova prova prova
+2024-08-31 09:13:26,907 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/sendMessage "HTTP/1.1 200 OK"
+2024-08-31 09:13:35,920 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:13:46,043 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:13:56,115 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:14:01,521 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:14:02,603 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getFile "HTTP/1.1 200 OK"
+2024-08-31 09:14:02,912 - INFO - HTTP Request: GET https://api.telegram.org/file/bot7219726355%3AAAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/voice/file_22.oga "HTTP/1.1 200 OK"
+2024-08-31 09:14:03,155 - INFO - File audio scaricato: downloads\AwACAgQAAxkBAAO3ZtLCudvMXNR4Ob4Fvh1LhERqpZgAAqgSAALikZhS6yVwtrboYM81BA.oga
+2024-08-31 09:14:03,276 - INFO - File convertito in WAV: downloads\AwACAgQAAxkBAAO3ZtLCudvMXNR4Ob4Fvh1LhERqpZgAAqgSAALikZhS6yVwtrboYM81BA.wav
+2024-08-31 09:14:05,033 - INFO - Trascrizione completata: la sottoscritta annarita fandom a stato nato a caserta il giorno ventiquattro zero sei milleduecentottantotto residente a frattamaggiore ibidem consapevole delle sanzioni penali applicabili in caso di dichiarazione mendace non veritiere diana di essere in possesso dei seguenti titoli di studio
+2024-08-31 09:14:05,103 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/sendMessage "HTTP/1.1 200 OK"
+2024-08-31 09:14:12,113 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:14:22,167 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:14:32,218 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:14:42,319 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:14:52,387 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:15:02,460 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:15:12,509 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:15:22,596 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:15:32,674 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:15:42,737 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:15:52,799 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:16:02,850 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:16:12,921 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:16:22,979 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:16:33,031 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:16:43,082 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:16:53,149 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:03,215 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:13,278 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:23,332 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:33,384 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:43,434 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:51,311 - INFO - HTTP Request: POST https://api.telegram.org/bot7219726355:AAHjWkVoBLuIPPXJ7XaSBdN0tyxhRPYfLGI/getUpdates "HTTP/1.1 200 OK"
+2024-08-31 09:17:51,311 - INFO - Application is stopping. This might take a moment.
+2024-08-31 09:17:51,312 - INFO - Application.stop() complete
